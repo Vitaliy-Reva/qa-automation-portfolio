@@ -22,6 +22,7 @@ def test_login_with_wrong_password(page):
 #     expect(page.get_by_text("Текст якого точно нема")).to_be_visible()
 
 # pipa
+# popa
 
 
 def test_sort_products_low_to_high(page):
