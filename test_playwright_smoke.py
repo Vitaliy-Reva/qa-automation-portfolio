@@ -21,6 +21,8 @@ def test_login_with_wrong_password(page):
 #     page.goto("https://www.saucedemo.com")
 #     expect(page.get_by_text("Текст якого точно нема")).to_be_visible()
 
+# pipa
+
 
 def test_sort_products_low_to_high(page):
     login_page = LoginPage(page)
