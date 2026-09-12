@@ -20,6 +20,6 @@ jobs:
       - name: Run tests in container
         run: |
           docker run --rm \
-            -e BASE_URL=${{ tests_secret.BASE_URL }} \
-            -e API_TOKEN=${{ tests_secret.API_TOKEN }} \
+            -e BASE_URL=${{ secrets.BASE_URL }} \
+            -e API_TOKEN=${{ secrets.API_TOKEN }} \
             qa-tests
